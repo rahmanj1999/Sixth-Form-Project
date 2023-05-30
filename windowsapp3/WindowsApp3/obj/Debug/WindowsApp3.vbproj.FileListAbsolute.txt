@@ -1,0 +1,54 @@
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.exe.config
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.exe
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.pdb
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\WindowsApp3.xml
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.vbprojResolveAssemblyReference.cache
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Login.resources
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Resources.resources
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.vbproj.GenerateResource.Cache
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.exe
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.xml
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.pdb
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\Information.mdf
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\bin\Debug\Information_log.ldf
+c:\users\rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.TeacherMenu.resources
+C:\Users\Rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.ModifyUsers.resources
+C:\Users\Rahman\documents\visual studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Details.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.ListOfStudents.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.ModifyQuestions.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Stats.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.ChangePass.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.PreQuestion.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Question.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Game.resources
+C:\Users\Rahman\Documents\Visual Studio 2017\Projects\WindowsApp3\WindowsApp3\obj\Debug\WindowsApp3.Upgrades.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\Information.mdf
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\Information_log.ldf
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\WindowsApp3.exe.config
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\WindowsApp3.exe
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\WindowsApp3.pdb
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\WindowsApp3.xml
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.vbprojResolveAssemblyReference.cache
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.ChangePass.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.Details.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.Game.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.ListOfStudents.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.Login.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.ModifyQuestions.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.ModifyUsers.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.Resources.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.PreQuestion.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.Question.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.Stats.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.TeacherMenu.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.Upgrades.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.vbproj.GenerateResource.Cache
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.vbproj.CoreCompileInputs.cache
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.exe
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.xml
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.pdb
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.ResetStats.resources
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\WindowsApp3.exe.manifest
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\bin\Debug\WindowsApp3.application
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.exe.manifest
+C:\Users\Rahman\Documents\windowsapp3\WindowsApp3\obj\Debug\WindowsApp3.application

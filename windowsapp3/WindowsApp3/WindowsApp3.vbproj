@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B47D01F8-F81F-4488-8DC4-429ADBAEE988}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApp3.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApp3</RootNamespace>
+    <AssemblyName>WindowsApp3</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\Rahman\Documents\test\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApp3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApp3.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>0007F45D913BC05EEEC153C8DF7D7D8851628F04</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WindowsApp3_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChangePass.Designer.vb">
+      <DependentUpon>ChangePass.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePass.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WaitKeepUpAndUpdateHealth.vb" />
+    <Compile Include="Wait.vb" />
+    <Compile Include="KeepBackgroundInFront.vb" />
+    <Compile Include="Variables.vb" />
+    <Compile Include="Details.Designer.vb">
+      <DependentUpon>Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.vb">
+      <DependentUpon>Game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListOfStudents.Designer.vb">
+      <DependentUpon>ListOfStudents.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ListOfStudents.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyQuestions.Designer.vb">
+      <DependentUpon>ModifyQuestions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyQuestions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModifyUsers.Designer.vb">
+      <DependentUpon>ModifyUsers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModifyUsers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InformationDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InformationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InformationDataSet.vb">
+      <DependentUpon>InformationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PreQuestion.Designer.vb">
+      <DependentUpon>PreQuestion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PreQuestion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question.Designer.vb">
+      <DependentUpon>Question.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Question.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ResetStats.Designer.vb">
+      <DependentUpon>ResetStats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ResetStats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stats.Designer.vb">
+      <DependentUpon>Stats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Stats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TeacherMenu.Designer.vb">
+      <DependentUpon>TeacherMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TeacherMenu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Upgrades.Designer.vb">
+      <DependentUpon>Upgrades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Upgrades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ChangePass.resx">
+      <DependentUpon>ChangePass.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Details.resx">
+      <DependentUpon>Details.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListOfStudents.resx">
+      <DependentUpon>ListOfStudents.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyQuestions.resx">
+      <DependentUpon>ModifyQuestions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModifyUsers.resx">
+      <DependentUpon>ModifyUsers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PreQuestion.resx">
+      <DependentUpon>PreQuestion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question.resx">
+      <DependentUpon>Question.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ResetStats.resx">
+      <DependentUpon>ResetStats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stats.resx">
+      <DependentUpon>Stats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TeacherMenu.resx">
+      <DependentUpon>TeacherMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Upgrades.resx">
+      <DependentUpon>Upgrades.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="InformationDataSet.xsc">
+      <DependentUpon>InformationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InformationDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InformationDataSet.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="InformationDataSet.xss">
+      <DependentUpon>InformationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="WindowsApp3_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Information.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Information_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Information.mdf</DependentUpon>
+    </Content>
+    <None Include="Resources\stance right3 cpu 7.png" />
+    <None Include="Resources\stance right2 cpu7.png" />
+    <None Include="Resources\stance right cpu 7.png" />
+    <None Include="Resources\stance left3 cpu7.png" />
+    <None Include="Resources\stance left2 cpu9.png" />
+    <None Include="Resources\stance left cpu9.png" />
+    <None Include="Resources\Punch Righ tCPU8.png" />
+    <None Include="Resources\Punch Left cpu 7.png" />
+    <None Include="Resources\Kick Right cpu 7.png" />
+    <None Include="Resources\Kick Leftcpu7.png" />
+    <None Include="Resources\Zstance right3 2.png" />
+    <None Include="Resources\Zstance right2 2.png" />
+    <None Include="Resources\Zstance right 2.png" />
+    <None Include="Resources\ZPunch Right2.png" />
+    <None Include="Resources\ZKick Right 3.png" />
+    <None Include="Resources\ZKick Right 2.png" />
+    <None Include="Resources\ZKick Left2.png" />
+    <None Include="Resources\Zstance right3 1.png" />
+    <None Include="Resources\Zstance right2 1.png" />
+    <None Include="Resources\Zstance right 1.png" />
+    <None Include="Resources\Zstance left3 1.png" />
+    <None Include="Resources\Zstance left2 1.png" />
+    <None Include="Resources\Zstance left 1.png" />
+    <None Include="Resources\ZPunch Right1.png" />
+    <None Include="Resources\ZPunch Left 1.png" />
+    <None Include="Resources\ZKick Right 1.png" />
+    <None Include="Resources\ZKick Left1.png" />
+    <None Include="Resources\Zstance right3 .png" />
+    <None Include="Resources\Zstance right2 .png" />
+    <None Include="Resources\Zstance right .png" />
+    <None Include="Resources\Zstance left3 .png" />
+    <None Include="Resources\Zstance left2 .png" />
+    <None Include="Resources\Zstance left .png" />
+    <None Include="Resources\ZPunch Right.png" />
+    <None Include="Resources\ZPunch Left .png" />
+    <None Include="Resources\ZKick Right .png" />
+    <None Include="Resources\ZKick Left.png" />
+    <None Include="Resources\stance right3 cpu 6.png" />
+    <None Include="Resources\stance right2 cpu6.png" />
+    <None Include="Resources\stance right cpu 6.png" />
+    <None Include="Resources\stance left3 cpu6.png" />
+    <None Include="Resources\stance left2 cpu8.png" />
+    <None Include="Resources\stance left cpu8.png" />
+    <None Include="Resources\Punch Righ tCPU7.png" />
+    <None Include="Resources\Punch Left cpu 6.png" />
+    <None Include="Resources\Kick Right cpu 6.png" />
+    <None Include="Resources\Kick Leftcpu6.png" />
+    <None Include="Resources\stance right3 cpu 5.png" />
+    <None Include="Resources\stance right2 cpu5.png" />
+    <None Include="Resources\stance right cpu 5.png" />
+    <None Include="Resources\stance left3 cpu5.png" />
+    <None Include="Resources\stance left2 cpu7.png" />
+    <None Include="Resources\stance left cpu7.png" />
+    <None Include="Resources\Punch Righ tCPU6.png" />
+    <None Include="Resources\Punch Left cpu 5.png" />
+    <None Include="Resources\Kick Right cpu 5.png" />
+    <None Include="Resources\Kick Leftcpu5.png" />
+    <None Include="Resources\stance right3 cpu 4.png" />
+    <None Include="Resources\stance right2 cpu4.png" />
+    <None Include="Resources\stance right cpu 4.png" />
+    <None Include="Resources\stance left3 cpu4.png" />
+    <None Include="Resources\stance left2 cpu6.png" />
+    <None Include="Resources\stance left cpu6.png" />
+    <None Include="Resources\Punch Righ tCPU5.png" />
+    <None Include="Resources\Punch Left cpu 4.png" />
+    <None Include="Resources\Kick Right cpu 4.png" />
+    <None Include="Resources\Kick Leftcpu4.png" />
+    <None Include="Resources\stance right3 cpu 3.png" />
+    <None Include="Resources\stance right2 cpu3.png" />
+    <None Include="Resources\stance right cpu 3.png" />
+    <None Include="Resources\stance left3 cpu3.png" />
+    <None Include="Resources\stance left2 cpu5.png" />
+    <None Include="Resources\stance left cpu5.png" />
+    <None Include="Resources\Punch Righ tCPU4.png" />
+    <None Include="Resources\Punch Left cpu 3.png" />
+    <None Include="Resources\Kick Right cpu 3.png" />
+    <None Include="Resources\Kick Leftcpu3.png" />
+    <None Include="Resources\stance right3 cpu 2.png" />
+    <None Include="Resources\stance right2 cpu2.png" />
+    <None Include="Resources\stance right cpu 2.png" />
+    <None Include="Resources\stance left3 cpu2.png" />
+    <None Include="Resources\stance left2 cpu4.png" />
+    <None Include="Resources\stance left cpu4.png" />
+    <None Include="Resources\Punch Righ tCPU3.png" />
+    <None Include="Resources\Punch Left cpu 2.png" />
+    <None Include="Resources\Kick Right cpu 2.png" />
+    <None Include="Resources\Kick Leftcpu2.png" />
+    <None Include="Resources\stance right3 cpu 1.png" />
+    <None Include="Resources\stance right2 cpu1.png" />
+    <None Include="Resources\stance right cpu 1.png" />
+    <None Include="Resources\stance left3 cpu1.png" />
+    <None Include="Resources\stance left2 cpu3.png" />
+    <None Include="Resources\stance left cpu3.png" />
+    <None Include="Resources\Punch Righ tCPU2.png" />
+    <None Include="Resources\Punch Left cpu 1.png" />
+    <None Include="Resources\Kick Right cpu 1.png" />
+    <None Include="Resources\Kick Leftcpu1.png" />
+    <None Include="Resources\stance left cpu11.png" />
+    <None Include="Resources\Punch Righ tCPU11.png" />
+    <None Include="Resources\stance left2 cpu2.png" />
+    <None Include="Resources\stance left cpu2.png" />
+    <None Include="Resources\stance left cpu1.png" />
+    <None Include="Resources\stance left2 cpu1.png" />
+    <None Include="Resources\Punch Righ tCPU1.png" />
+    <None Include="Resources\672ea8158b45191e015b6144396479901.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
